@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurse de calcul și acces la internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Structura rețelei personale și accesul la internet</h1>
+        <p>Prezentare a resurselor proprii</p>
+    </header>
+
+    <section id="informatii-personale">
+        <h2>Informații personale</h2>
+        <p><strong>Nume:</strong> Fechete Andrei</p>
+        <p><strong>Email:</strong> <a href="mailto:fechete.ma.andrei@student.utcluj.ro">fechete.ma.andrei@student.utcluj.ro</a></p>
+    </section>
+
+    <section id="retea-personala">
+        <h2>Structura rețelei personale</h2>
+        <ul>
+            <li><strong>Adresa MAC:</strong> 11:2A:3B:4C:5D:6E</li>
+            <li><strong>Adresa IP:</strong> 192.168.1.1</li>
+            <li><strong>Debit la download:</strong> 200 Mbps</li>
+            <li><strong>Debit la upload:</strong> 100 Mbps</li>
+        </ul>
+
+        <div class="network-diagram">
+            <div class="device">PC</div>
+            <div class="arrow">⇌</div>
+            <div class="device router">
+                Router
+                <div class="details">
+                    <p><strong>Adresa MAC:</strong> 11:2A:3B:4C:5D:6E</p>
+                    <p><strong>Adresa IP:</strong> 192.168.1.1</p>
+                    <p><strong>Debit Download:</strong> 200 Mbps</p>
+                    <p><strong>Debit Upload:</strong> 100 Mbps</p>
+                </div>
+            </div>
+            <div class="info">
+                <p>Conexiune prin cablu între PC și Router</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="specificatii-tehnice">
+        <h2>Specificații tehnice ale stației principale de lucru</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Denumire componentă</th>
+                    <th>Producător</th>
+                    <th>Parametri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Procesor</td>
+                    <td>INTEL</td>
+                    <td>INTEL CORE I5</td>
+                </tr>
+                <tr>
+                    <td>Memorie RAM</td>
+                    <td>Kingston</td>
+                    <td>16 GB DDR4</td>
+                </tr>
+                <tr>
+                    <td>Placă video</td>
+                    <td>NVIDIA</td>
+                    <td>GeForce GTX 4050</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="monitorizare-resurse">
+        <h2>Utilizarea resurselor</h2>
+        <div class="slideshow-container">
+            <div class="screenshot">
+                <img id="slideImage" src="cpu.png" alt="Consumul CPU și memorie">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fechete Andrei. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
